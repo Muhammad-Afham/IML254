@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>My Education</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #273746;
+  color: white;
+}
+h1, h2, h3 {
+  font-family: Algerian;
+  color: white;
+}
+header {
+  background-color: #1B4F72;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+nav {
+  margin: 0 auto; 
+  width: 30%;
+  height: 300px;
+  background: #ccc;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; 
+}
+nav img {
+  max-width: 100%;
+  max-height: 100%;
+}
+article {
+  margin: 0 auto;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  color: black; 
+  height: 300px;
+}
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+}
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+.slideshow-container {
+  position: relative;
+  max-width: 1000px;
+  margin: auto;
+}
+.mySlides {
+  display: none;
+}
+img {
+  vertical-align: middle;
+  width: 100%;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1> My Education</h1>
+</header>
+
+<footer>
+<font face="Algerian" color="white"size"20">My primary Schools Life</font>
+</footer>
+<div class="slideshow-container">
+
+<div class="mySlides primary">
+  <img src="image/Myprimaryschool.JPG" alt="My primary school picture" width="500" height="400">
+</div>
+
+<div class="mySlides primary">
+  <img src="image/primary1.jpg" alt="My primary school picture" width="500" height="400">
+</div>
+
+<div class="mySlides primary">
+  <img src="image/primary 6.jpg" alt="My primary school picture" width="500" height="400">
+</div>
+
+<div class="mySlides primary">
+  <img src="image/primary 5.jpg" alt="My primary school picture" width="500" height="400">
+</div>
+
+<div class="mySlides primary">
+  <img src="image/primary 4.jpg" alt="My primary school picture" width="500" height="400">
+</div>
+
+<div class="mySlides primary">
+  <img src="image/primary 3.jpg" alt="My primary school picture" width="500" height="400">
+</div>
+
+<div class="mySlides primary">
+  <img src="image/primary 2.jpg" alt="My primary school picture" width="500" height="400">
+</div>
+
+<a class="prev primary-prev" onclick="plusSlides(-1, 'primary')">&#10094;</a>
+<a class="next primary-next" onclick="plusSlides(1, 'primary')">&#10095;</a>
+
+</div>
+
+<p><b><i>When I was seven years old, I started attending Sekolah Rendah al-Furqan in Kota Lama Kanan, Kuala Kangsar, Perak, where I studied until I was twelve. 
+The school, which was surrounded by lush nature, played an important role in my childhood and provided many wonderful experiences. I walked to school every day,
+ making lifelong friendships and playing traditional games like "sepak takraw" and "batu seremban." Our committed teachers instilled a passion for studying,
+
+bringing subjects like history to life. Festivals, particularly Hari Raya, were celebrated with a strong sense of belonging. As I prepared for the UPSR exams in my last
+year, the help of friends and teachers was helpful. I graduated from Sekolah Rendah al-Furqan with cherished memories, enduring connections, and a strong educational
+foundation.</b></i></p>
+
+<footer>
+<font face="Algerian" color="white"size"20">My High Schools Life</font>
+</footer>
+<div class="slideshow-container">
+
+<div class="mySlides highschool">
+  <img src="image/Myhighschool.jpg" alt="My highschool" width="500" height="400">
+</div>
+
+<div class="mySlides highschool">
+  <img src="image/high4.jpg" alt="My highschool" width="500" height="400">
+</div>
+
+<div class="mySlides highschool">
+  <img src="image/High 1.jpg" alt="My highschool" width="500" height="400">
+</div>
+
+<div class="mySlides highschool">
+  <img src="image/high2.jpg" alt="My highschool" width="500" height="400">
+</div>
+
+
+<a class="prev highschool-prev" onclick="plusSlides(-1, 'highschool')">&#10094;</a>
+<a class="next highschool-next" onclick="plusSlides(1, 'highschool')">&#10095;</a>
+
+</div>
+
+<p><b><i>Long after, in 2017, at the age of 13, I was sent to Sekolah Menengah Kebangsaan Bukit Merchu. This school was conveniently close to my house, 
+making the daily journey much easier. Every morning, I'd get on my motorcycle and ride the short distance to school, feeling the cool morning air on my face. 
+The ride became a treasured ritual, providing a few moments of solitude and thought before the hectic day began. Riding through the peaceful neighborhood streets, 
+I frequently liked the tranquil surroundings and the sense of tranquility that came with the early hour. This little trek marked the beginning of each day at 
+Bukit Merchu, setting the tone for the events and lessons that awaited me within.</b></i></p>
+
+<footer>
+<font face="Algerian" color="white" size="20">My University Life</font>
+</footer>
+<div class="slideshow-container">
+<!-- University slides -->
+<div class="mySlides university">
+  <img src="image/university1.jpg" alt="university" width="500" height="400">
+</div>
+
+<div class="mySlides university">
+  <img src="image/university2.jpeg" alt="university" width="500" height="400">
+</div>
+
+<div class="mySlides university">
+  <img src="image/university3.jpeg" alt="university" width="500" height="400">
+</div> 
+
+<div class="mySlides university">
+  <img src="image/university4.jpg" alt="university" width="500" height="400">
+</div>
+
+<div class="mySlides university">
+  <img src="image/university5.jpg" alt="university" width="500" height="400">
+</div>
+
+<div class="mySlides university">
+  <img src="image/university6.jpg" alt="university" width="500" height="400">
+</div>
+
+<a class="prev university-prev" onclick="plusSlides(-1, 'university')">&#10094;</a>
+<a class="next university-next" onclick="plusSlides(1, 'university')">&#10095;</a>
+
+</div>
+
+<p><b><i>In 2022, I began a new chapter by enrolling in UiTM in Kedah, leaving behind the comforts of home for the first time. Despite my early reservations, I was able
+ to settle in and build supportive friendships with my classmates within a week. Having a high school friend at my side was helpful, but it was the friendly environment and 
+camaraderie among friends that actually made me feel at ease. Overcoming the difficulties of adjusting to a new environment gave me a sense of accomplishment and freedom. 
+As I continue my study at UiTM, I am eager to seize possibilities for growth and self-discovery, confident that with the help of friends and newfound resilience, 
+I can accomplish anything.</b></i></p>
+
+<script>
+let slideIndices = {
+  primary: 1,
+  highschool: 1,
+  university: 1
+};
+
+showSlides(1, 'primary');
+showSlides(1, 'highschool');
+showSlides(1, 'university');
+
+function plusSlides(n, type) {
+  showSlides(slideIndices[type] += n, type);
+}
+
+function showSlides(n, type) {
+  let i;
+  let slides = document.getElementsByClassName(type);
+  if (n > slides.length) {slideIndices[type] = 1}
+  if (n < 1) {slideIndices[type] = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slides[slideIndices[type]-1].style.display = "block";
+}
+
+// Auto slide functionality
+function autoSlides() {
+  plusSlides(1, 'primary');
+  plusSlides(1, 'highschool');
+  plusSlides(1, 'university');
+  setTimeout(autoSlides, 3000); 
+}
+
+autoSlides();
+</script>
+
+</body>
+</html>
